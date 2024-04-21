@@ -8,4 +8,4 @@ spec:
   interval: 30s
   ref:
     branch: main
-  url: https://github.com/DrPalmeritta/flux-like-repo
+  url: https://github.com/DrPalmeritta/kube-prometheus-stack
