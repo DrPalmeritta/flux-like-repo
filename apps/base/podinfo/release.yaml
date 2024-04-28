@@ -12,11 +12,10 @@ spec:
       sourceRef:
         kind: HelmRepository
         name: podinfo
-        namespace: podinfo #flux-system
-  interval: 50m
-  install:
-    remediation:
-      retries: 3
+  interval: 1m #50m
+  # install:
+  #   remediation:
+  #     retries: 3
   values:
     ingress:
       enabled: false
