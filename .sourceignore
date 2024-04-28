@@ -1,0 +1,9 @@
+# Flux ignore
+
+# Exclude all
+# /*
+
+# Include manifest directories
+!/apps/
+!/clusters/
+# !/infrastructure/
