@@ -6,5 +6,5 @@ metadata:
   namespace: podinfo
 spec:
   interval: 1m #5m
-  url: git@github.com:DrPalmeritta/podinfo-chart.git
+  url: https://github.com/DrPalmeritta/podinfo-chart.git
   # url: https://github.com/stefanprodan/podinfo.git
