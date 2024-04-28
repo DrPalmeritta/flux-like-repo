@@ -6,7 +6,5 @@ metadata:
   namespace: podinfo
 spec:
   interval: 1m #5m
-  git:
-    ref:
-      branch: gh-pages
-  url: https://github.com/stefanprodan/podinfo.git
+  url: git@github.com:DrPalmeritta/podinfo-chart.git
+  # url: https://github.com/stefanprodan/podinfo.git
