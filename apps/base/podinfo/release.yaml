@@ -12,7 +12,7 @@ spec:
       sourceRef:
         kind: HelmRepository
         name: podinfo
-  interval: 1m #50m
+  interval: 50m
   # install:
   #   remediation:
   #     retries: 3
