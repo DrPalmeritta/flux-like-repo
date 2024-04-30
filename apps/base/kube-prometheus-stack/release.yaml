@@ -12,4 +12,4 @@ spec:
       sourceRef:
         kind: HelmRepository
         name: kube-prometheus-stack
-  interval: 50m
+  interval: 1m #50m
