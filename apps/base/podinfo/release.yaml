@@ -13,9 +13,6 @@ spec:
         kind: HelmRepository
         name: podinfo
   interval: 50m
-  # install:
-  #   remediation:
-  #     retries: 3
   values:
     ingress:
       enabled: false

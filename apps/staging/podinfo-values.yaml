@@ -10,10 +10,10 @@ spec:
       version: ">=1.0.0-alpha"
   test:
     enable: false
-  values:
-    ingress:
-      hosts:
-        - host: podinfo.staging
-          paths:
-            - path: /
-              pathType: ImplementationSpecific
+  # values:
+  #   ingress:
+  #     hosts:
+  #       - host: podinfo.staging
+  #         paths:
+  #           - path: /
+  #             pathType: ImplementationSpecific
