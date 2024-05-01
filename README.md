@@ -1,3 +1,5 @@
+[![Docs badge](https://img.shields.io/badge/docs-latest-brightgreen.svg)](https://fluxcd.io/)
+
 # Palmer`s project for FLUXCD repository
 
 This repository contains the code and resources for my personal project. The project aims to [implement any interested features for local use]. It is designed to [overwrite helm charts contributed over private chart repository]. Feel free to explore the code and contribute if you're interested!
