@@ -10,18 +10,18 @@
 #   - path: podinfo-values.yaml
 #     target:
 #       kind: HelmRelease
----
-apiVersion: kustomize.config.k8s.io/v1beta1
-kind: Kustomization
-metadata:
-  name: kube-prometheus-stack
-namespace: kube-prometheus-stack
-resources:
-  - ../base/kube-prometheus-stack
-patches:
-  - path: kube-prometheus-stack-values.yaml
-    target:
-      kind: HelmRelease
+# ---
+# apiVersion: kustomize.config.k8s.io/v1beta1
+# kind: Kustomization
+# metadata:
+#   name: kube-prometheus-stack
+# namespace: kube-prometheus-stack
+# resources:
+#   - ../base/kube-prometheus-stack
+# patches:
+#   - path: kube-prometheus-stack-values.yaml
+#     target:
+#       kind: HelmRelease
 ---
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
