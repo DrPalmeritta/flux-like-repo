@@ -6,4 +6,5 @@ metadata:
   namespace: jenkins
 spec:
   interval: 1m #5m
-  url: https://DrPalmeritta.github.io/palmeritta-helm-charts
+  #url: https://DrPalmeritta.github.io/palmeritta-helm-charts
+  url: https://drpalmeritta.github.io/palmeritta-helm-repo
