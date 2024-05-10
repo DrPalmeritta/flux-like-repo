@@ -5,11 +5,14 @@ metadata:
   name: apps
   namespace: flux-system
 spec:
+  dependsOn:
+    - name: apps-manager
   interval: 1m0s #10m0s
   sourceRef:
     kind: GitRepository
     name: flux-system
-  path: ./apps/staging
+  path: ./clusters/staging
+  # path: ./apps/staging
   prune: true
   wait: true
   timeout: 5m0s
