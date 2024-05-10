@@ -6,13 +6,17 @@ metadata:
   namespace: flux-system
 spec:
   dependsOn:
-    - name: apps-manager
+    - name: jenkins-kustomization
+    - name: kube-prometheus-stack-kustomization
+    - name: podinfo-kustomization
+  # dependsOn:
+  #   - name: apps-manager
   interval: 1m0s #10m0s
   sourceRef:
     kind: GitRepository
     name: flux-system
-  path: ./clusters/staging
-  # path: ./apps/staging
+  # path: ./clusters/staging
+  path: ./apps/staging
   prune: true
   wait: true
   timeout: 5m0s
