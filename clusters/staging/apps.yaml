@@ -5,10 +5,10 @@ metadata:
   name: apps
   namespace: flux-system
 spec:
-  dependsOn:
-    - name: jenkins-kustomization
-    - name: kube-prometheus-stack-kustomization
-    - name: podinfo-kustomization
+  # dependsOn:
+  #   - name: jenkins-kustomization
+  #   - name: kube-prometheus-stack-kustomization
+  #   - name: podinfo-kustomization
   # dependsOn:
   #   - name: apps-manager
   interval: 1m0s #10m0s
