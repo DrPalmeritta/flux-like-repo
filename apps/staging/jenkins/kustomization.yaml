@@ -5,8 +5,8 @@ metadata:
   name: jenkins
 namespace: jenkins
 resources:
-  - ./apps/base/jenkins
-  # - ../base/jenkins
+  - ../apps/base/jenkins
+  #- ../base/jenkins
 patches:
   - path: jenkins-values.yaml
     target:
