@@ -19,8 +19,8 @@ metadata:
   name: flux-system
   namespace: flux-system
 spec:
-  interval: 10m0s
-  path: ./clusters/staging
+  interval: 1m0s #10m0s
+  path: ./clusters/jenkins
   prune: true
   sourceRef:
     kind: GitRepository
