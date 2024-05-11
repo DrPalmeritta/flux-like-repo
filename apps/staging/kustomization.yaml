@@ -3,15 +3,10 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 metadata:
   name: jenkins
-namespace: podinfo #jenkins
+namespace: jenkins
 resources:
-  # - ../apps/base/jenkins
   - ../base/jenkins
-  - ../base/podinfo
 patches:
   - path: jenkins-values.yaml
-    target:
-      kind: HelmRelease
-  - path: podinfo-values.yaml
     target:
       kind: HelmRelease
