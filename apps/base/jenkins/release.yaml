@@ -12,4 +12,4 @@ spec:
       sourceRef:
         kind: HelmRepository
         name: jenkins
-  interval: 1m #50m
+  interval: 50m
